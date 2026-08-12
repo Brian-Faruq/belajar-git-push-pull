@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 30px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form-tambah {
+    flex-direction: row;
+}
+
+input[type="text"], select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover { background-color: #218838; }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th { background-color: #f8f9fa; }
+
+.btn-edit, .btn-hapus, .btn-batal {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.btn-edit { background-color: #007bff; }
+.btn-hapus { background-color: #dc3545; }
+.btn-batal { background-color: #6c757d; text-align: center; margin-top: 5px; }
